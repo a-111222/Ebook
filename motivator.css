@@ -1,0 +1,702 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
+body{
+    background: #fff1e5;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*start nav-bar*/
+.nav {
+    background-image: url("img/back.png");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.nav .a {
+    height: 150px;
+}
+
+.nav .row {
+    padding-top: 30px !important;
+}
+
+.nav button {
+    width: 166px;
+    padding: 6px;
+    outline: 0;
+    border: 0;
+    background: none;
+    float: right;
+    border-radius: 37px;
+    border: 3px solid #ff8b2f;
+    color: #ff8b2f;
+    font-size: 19px;
+    font: bold;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.nav button:hover {
+    color: #FFF;
+    background: #ff8b2f;
+}
+
+.nav .logo h1 {
+    color: #FFF;
+    padding: 0 0 0 20px;
+    cursor: pointer;
+    padding-left: 41px;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+
+
+.Fcont {
+    color: #fff1e5;
+    padding: 0 0 0 41px;
+    float: left;
+
+}
+
+.Fcont h2 {
+    font-weight: 900;
+    font-size: 69px;
+    overflow: hidden;
+}
+
+.Fcont p {
+    font-weight: 500;
+    padding: 25px 0;
+    color: #bbb;
+}
+
+.line {
+    height: 1px;
+    background: #9c9898;
+    width: 58%;
+}
+
+.Fcont .by {
+    color: #ff8b2f;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.by span {
+    color: #bbb;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.S-cont {
+    float: left;
+    background: url(img/on.jpg);
+    background-size: contain;
+    z-index: 9;
+    background-repeat: no-repeat;
+    padding: 0 0 0 41;
+    height: 400px;
+    width: 300px;
+}
+
+.cont::after {
+    content: "";
+    height: 547px;
+    width: 464%;
+    background: #fff1e5;
+    position: absolute;
+    bottom: -1020px;
+    right: -294px;
+    transform: rotateZ(-20deg);
+    float: left;
+}
+
+/*End nav-bar*/
+/*******************************************************/
+/*start scound section*/
+.invest {
+    width: 100%;
+    float: left;
+    background: #fff1e5;
+}
+.productive{
+    padding: 100 41px;
+}
+.productive h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.productive p{
+    font-weight: 400;
+    color: #565656;
+}
+.boxx{
+    padding: 70px 0;
+    width: 100%;
+}
+.boxx li{
+    background: #FFF;
+    margin: 0 13px;
+    float: left;
+    width: 164px;
+    list-style: none;
+    padding: 45px 0;
+    text-align: center;
+    font-weight: 800;
+    color: #717171;
+    padding: 19px 0;
+    width: 100%;
+   
+    height: 150;
+
+}
+.boxx li div{
+    padding-bottom: 17px;
+    font-size: 55px;
+    color: #000!important;
+    font-weight: bold;
+
+}
+
+.readers{
+    padding: 100px 27px;
+    text-align: center;
+    margin: auto;
+}
+.readers .linee{
+    width: 60%;
+    height: 2px;
+    background:#ff8b2f;
+    margin: auto;
+}
+.readers h2{
+    padding: 63px 0px 13px 0;
+    font-weight: 800;
+}
+.readers p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.readers h4{
+    padding: 28px 0 66px 0;
+    font-size: 13px;
+    font-weight: 900;
+    color: #5f5f5f;
+}
+.readers .line-t{
+    width: 60%;
+    height: 2px;
+    background:#ff8b2f;
+    margin: auto;
+}
+.boxx li p{
+    font-weight: bold;
+
+}
+/***********************************************************/
+/*start third*/
+.third{
+    float: left;
+    width: 100%;
+    padding: 100 0;
+
+}
+.third h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+.third div{
+    margin: auto;
+}
+/*end third*/
+/***********************************************************/
+
+/*start forth*/
+.Adam{
+    float: left;
+    width: 100%;
+}
+.Adam .fi{
+    width: 100%;
+   
+    background:url("img/back.png");
+    background-size: cover;
+    float: left;
+}
+.fi .pho{
+    padding: 379px 0;
+    background: url(img/adam.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.conttnt{
+    float: right;
+    width: 100%;
+    padding: 19% 86px;
+    color: #FFF;  
+}
+.conttnt h6{
+    color:#ff8b2f;
+    font: bold;
+}
+.conttnt h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.conttnt p{
+    color: #808080;
+}
+.conttnt span{
+    color: #FFF;
+    font-weight: 900;
+    font-size: 18px;
+}
+.conttnt p:nth-of-type(2){
+    font-size: 14px;
+
+}
+/*End forth*/
+/***********************************************************************************/
+/*start fifth*/
+.table{
+
+    width: 100%;
+    float: left;
+    padding: 200 0 0;
+}
+.table h6{
+    padding: 0 74;
+    color: #FF5722;
+    font: bold;
+    font-size: 16px;
+    font-weight: 900; 
+}
+.table .o{
+    padding: 8 74px;
+    font-weight: 800;
+    font-size: 26px;
+}
+.intro{
+    padding: 13px 74px;
+    float: left;
+    margin-top: 34px;
+    margin-bottom: -34px;
+
+}
+.intro .o{
+    font-size: 27px;
+    font-weight: 700;
+   
+}
+.intro p{
+    font-weight: 800;
+    color: #5a5050;
+    padding: 45px 0;
+    padding: 45px 0 0 0;
+}
+span svg{
+    font-size: 20px;
+    cursor: pointer;
+    float:unset
+}
+span .bid{
+    width: fit-content;
+}
+.bid svg{
+    color: #ff5722;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.lin{
+    height: 1px;
+    background: #5a5050;
+    float: left;
+}
+.table h5{
+    padding: 0 74;
+    font-weight: bold;
+    font-size: 22px;
+}
+.one h2{
+    font-size: 20px;
+}
+.icon svg.active{
+    transform: rotate(45deg);
+}
+
+.introT{
+    padding: 54px 0;
+}
+.introT h2{
+    font-size: 20;
+
+}
+
+/*end fifth*/
+/*start sixth*/
+.all{
+    float: left;
+    width: 100%;
+    padding: 150 0;
+}
+.all .one{
+    float: left;
+
+}
+.all .one h6{
+    padding: 0 74;
+    color: #FF5722;
+    font: bold;
+    font-size: 16px;
+    font-weight: 900; 
+}
+.all .one h2:nth-child(2){
+    padding: 8 74px;
+    font-weight: 800;
+    font-size: 26px;
+}.question{
+    width: 100%;
+}
+.all .question{
+        font-size: 20;
+}
+.all .answer{
+    font-weight: 800;
+    color: #5a5050;
+    padding: 45px 0;
+    padding: 45px 0 0 0;
+}
+.whare{
+    padding: 13px 74px;
+    float: left;
+    margin-top: 34px;
+    margin-bottom: -34px;
+}
+
+.all .two{
+    float: left;
+}
+.all .two h6{
+    padding: 0 74;
+    color: #FF5722;
+    font: bold;
+    font-size: 16px;
+    font-weight: 900; 
+}
+.all .two h2:nth-child(2){
+    padding: 8 74px;
+    font-weight: 800;
+    font-size: 26px;
+}
+.two .answer{
+    width: 100%;
+}
+.all  .two .answer{
+    font-weight: 800;
+    color: #5a5050;
+    padding: 45px 0;
+    padding: 45px 0 0 0;
+}
+.two .whare{
+   
+        padding: 13px 74px;
+        float: left;
+        margin-top: 34px;
+        margin-bottom: -34px;
+}
+.two .question h2{
+    font-size: 20px;
+}
+/*End sixth*/
+/***********************************************************************************/
+/*strat seven*/
+.bo{
+    width: 100%;
+    float: left;
+  
+}
+.bo section{
+    margin: auto;
+    padding: 100 20 0 20;
+    width: 100%;
+ 
+}
+.bo .box{
+    padding: 100 0;
+    text-align: center;
+    background: #FFF;
+    float: left;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 20;
+    transition: all 300ms ease-in-out;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+.box h2{
+    font-size: 27px;
+    font-weight: 800;
+    padding: 23px;
+
+}
+.box p{
+    font-weight: 800;
+    color: #545151;
+    line-height: 2;
+}
+.box button{
+    width: 166px;
+    padding: 6px;
+    outline: 0;
+    border: 0;
+    background: none;
+    border-radius: 37px;
+    border: 3px solid #ff8b2f;
+    color: #ff8b2f;
+    font-size: 19px;
+    font: bold;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.box button:hover {
+    color: #FFF;
+    background: #ff8b2f;
+}
+/*End seven*/
+/*****************************************************************/
+/*start footer*/
+footer{
+    width: 100%;
+    float: left;
+    padding: 40 0;
+    overflow: hidden;
+}
+footer .format{
+    float: left;
+    width: 80%;
+    margin: auto;
+    background: url("img/back.png");
+    color: #FFF;
+    padding: 33px 0;
+
+
+}
+footer button{
+    outline: 0;
+    border: 0;
+    background: none;
+    border-radius: 37px;
+    border: 3px solid #ff8b2f;
+    background: #ff8b2f;
+    color: #FFF;
+    font-size: 19px;
+    font: bold;
+    transition: all .5s ease-in-out;
+    font-weight: 800;
+    outline: none;
+}
+footer button:hover{
+    color: #ff8b2f;
+    background: #FFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+}
+footer p{
+    display: contents;
+}
+footer p:nth-of-type(2){
+    font-size: 50px;
+    font-weight: 900;
+    color: #bbb; 
+}
+footer .fo{
+    padding: 44px 20;
+}
+footer p{
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 900;
+}
+footer span{
+    padding-left: 17%;
+}
+.contact{
+    width: 20%;
+    margin: auto;
+    padding-top: 3%;
+
+}
+.contact ul{
+    list-style: none;
+    text-align: center;
+}
+.contact li{
+    list-style: none;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    font-size: 31px;
+}
+.contact li:hover{
+transform: scale(1.2);
+transition: all .5s ease-in-out;
+cursor: pointer;
+}
+.af{
+    overflow: hidden;
+    position: relative;
+
+}
+.af::after {
+    content: "";
+    position: absolute;
+    bottom: -65%;
+    left: -25px;
+    height: 82%;
+    width: 130%;
+    background: #FF5722;
+    float: left;
+    z-index: -1;
+    transform: skew(16deg, 27deg);
+    transform: skewY(27deg);
+    padding: 37%;
+
+}
+footer section{
+    margin: auto;
+    text-align: center;
+}
+section .las{
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+/*strat loading page*/
+.loading{
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+background: #ff5722;
+color: #FFF;
+z-index: 99999999999;
+}
+.sk-folding-cube {
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+  }
+  
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1); 
+  }
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d1c1b;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+  }
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+  }
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+  }
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+  }
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+  }
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; 
+  }
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+  }
+  @-webkit-keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    } 
+  }
+  
+  @keyframes sk-foldCubeAngle {
+    0%, 10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+              transform: perspective(140px) rotateX(-180deg);
+      opacity: 0; 
+    } 25%, 75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+              transform: perspective(140px) rotateX(0deg);
+      opacity: 1; 
+    } 90%, 100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+              transform: perspective(140px) rotateY(180deg);
+      opacity: 0; 
+    }
+  }
+  .sk-folding-cube {
+    margin: 20px auto;
+    width: 139px;
+    height: 108px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(0);
+    margin-top: 19%;
+}

@@ -1,0 +1,436 @@
+@media(max-width:370px) {
+    .cont::after {
+        right: -316px;
+        transform: rotateZ(-32deg);
+        height: 600;
+        width: 464%;
+        bottom: -558px;
+    }
+
+    /*start a scound section*/
+    .boxx li {
+        margin: 0 0 20 0;
+    }
+}
+
+@media(max-width:570px) {
+    .nav .logo {
+        padding: 0;
+    }
+
+    .nav .a {
+        height: 109px;
+    }
+
+    .Fcont h2 {
+        font-size: 32px;
+    }
+
+    .Fcont p {
+        font-size: 13px;
+
+    }
+
+    .cont::after {
+        bottom: -493px;
+        right: -271%;
+        transform: rotateZ(-24deg);
+        padding: 408px;
+    }
+
+    .S-cont {
+        height: 400px;
+        background-position: center;
+        width: 100%;
+    }
+
+    /*start a scound section*/
+    .boxx li {
+        margin: 0 0 20 0;
+        margin-bottom: 5%;
+    }
+
+    /*start third */
+    .third {
+        padding: 0px 30px;
+    }
+
+    /*start forth*/
+    .Adam{
+        padding: 160 0;
+    }
+  
+    .conttnt{
+        padding: 7% 2px;
+        color: #FFF;
+    }
+    .fi .pho{
+        margin-top: -58px;
+        position: unset;
+        padding-bottom: 100 100;
+        height: 400px;
+        padding: 0;
+    }
+    .conttnt h2{
+        font-size: 41px;
+    }
+    .conttnt p{
+        font-size: 14px;
+    }
+   /*start fifth*/
+   .table,
+   .one,
+   .two{
+       padding: 0;
+   } 
+   .intro,
+   .table .o,
+   .table h6,
+   .table h5
+   {
+    padding: 0 19;
+   }
+   .intro{
+    padding-bottom: 24px;
+   }
+   .one h2,
+   .introT h2{
+    font-size: 16px;
+
+   }
+   /*strat six*/
+   .cha .whare,
+   .two .whare{
+    padding: 0 15px 24px;
+   }
+   .all .one h2,
+   .all .two h2{
+    padding: 0;
+    font-size: 16px; 
+   }
+   .all .one h6,
+   .all .one h2:nth-child(2),
+   .all .two h6,
+   .all .two h2:nth-child(2){
+    padding: 0 19px;
+   }
+   .all .one{
+    padding: 0 0 66px;  
+   }
+   /*start seven section*/
+   .bo section{
+    padding: 0;
+   }
+   .bo .box{
+    margin-bottom: 40;
+
+   }
+   /*start footer*/
+   footer .format{
+    width: 100%;
+   }
+   footer .fo{
+    text-align: center;
+   }
+   footer p{
+    font-size: 17px;
+    padding-bottom: 22px; 
+   }
+   footer p:nth-of-type(2){
+    font-size: 17px;
+   }
+   footer span{
+    padding: 0;
+   }
+   footer button{
+    margin-top: 8%;
+    width: unset;
+    padding: 3%;
+   }
+   /*start after*/
+   .af::after {
+    content: "";
+    bottom: -65%;
+    z-index: -1;
+    padding: 100%;
+    transform: skew(41deg, -106deg);
+}
+.contact{
+    width: 80%;
+    padding-top: 27px;
+}
+.contact ul{
+    width: 100%;
+    display: inherit;
+}
+
+}
+
+@media(min-width:570px) and (max-width:800px) {
+
+
+    .Fcont h2 {
+        font-size: 44px;
+    }
+
+    .Fcont p {
+        font-size: 15px;
+    }
+
+    .S-cont {
+        height: 400px;
+        background-position: center;
+        width: 100%
+    }
+
+    /*start a scound section*/
+    .boxx li {
+        margin: 0 0 20 20;
+    }
+
+    /*start third */
+    .third {
+        padding: 0px 30px;
+    }
+
+    .third h2 {
+        font-size: 22px;
+        font-weight: 800;
+    }
+        /*start forth*/
+    .Adam{
+        padding: 200 0;
+    }
+    .fi .pho{
+        position: unset;
+        padding: 300px 0;    
+        margin-top: -60;
+ 
+    }  
+    .conttnt{
+        padding: 13% 12px;
+ 
+    } 
+       /*start fifth*/
+   .table,
+   .one{
+       padding: 0;
+}
+/*strat sixth*/
+.all .one{
+    padding-bottom: 100px;
+}
+.all .two{
+    padding: 0;
+}
+   /*start seven section*/
+   .bo section{
+    padding: 0;
+   }
+   .bo .box{
+    margin: 20 auto;
+   }
+   /*start footer*/
+   footer{
+    font-size: 36px;
+    width: 100%;
+   }
+   footer .format{
+       width: 100%;
+   }
+   footer p:nth-of-type(2),
+   footer p{
+    font-size: 29px;
+   }
+   footer button{
+    float: right;
+    margin-top: 7%;
+   }
+   .le{
+    float: left;   
+   }
+   footer p{
+    font-size: 33px;
+   }
+   .ri{
+    width: unset;
+    float: right;
+   }
+   .ri button{
+    width: unset;
+    padding: 13px;
+    float: right!important;
+   }
+  footer .contact {
+    width: 44%;
+   }
+.contact ul{
+    display: inherit;
+}
+}
+
+@media(min-width:571px) and (max-width:767px) {
+    .cont::after {
+        bottom: -76%;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:800px) {
+    .cont::after {
+        bottom: -118%;
+    }
+
+    .S-cont {
+        height: 701px;
+    }
+}
+
+@media(min-width:801px) and (max-width:1021px) {
+
+    .S-cont {
+        height: 700px;
+        width: 100%;
+    }
+
+    .Fcont h2 {
+        font-size: 42px;
+    }
+
+    .Fcont p {
+        font-size: 14px;
+    }
+
+    .cont::after {
+        transform: rotateZ(-18deg);
+        bottom: -152%;
+        padding: 38%;
+        right: -35%;
+        width: 508%;
+        height: 104%;
+    }
+            /*start forth*/
+        .Adam{
+            padding: 150 0;
+        }
+        .fi .pho{
+            margin-top: -90px;
+        }
+        .conttnt{
+            padding: 9% 77px;
+        }
+
+
+    /*start a scound section*/
+    .boxx ul {
+        margin: 0 50;
+    }
+
+    .boxx li {
+
+        margin-right: 4%;
+    }
+           /*start fifth*/
+   .table,
+   .one{
+       padding: 0;
+}
+/*strat sixth*/
+.all .two{
+    padding: 0;
+}
+/*start seven section*/
+.bo .box:nth-of-type(3){
+    margin: auto;
+}
+/*start footer*/
+footer .format{
+    width: 100%;
+}
+.fo div:nth-of-type(1){
+float: left;
+}
+.fo div:nth-of-type(2){
+    width: 30%;
+    padding-top: 20px;
+    float: left;
+}
+footer button{
+width: unset;
+padding: 5%;
+float: right;
+}
+footer .contact {
+    width: 30%;
+   }
+}
+
+@media(min-width:1022px) {
+    .cont {
+        padding: 70px 0;
+    }
+
+    .S-cont {
+        height: 650px;
+        width: 100%;
+        background-size: contain;
+    }
+
+    .Fcont h2 {
+        font-size: 60px;
+    }
+
+    .Fcont p {
+        font-size: 16px;
+    }
+
+    .cont::after {
+        left: -55%;
+        bottom: 0;
+        padding: 33%;
+
+    }
+
+    /*start a scound section*/
+    .productive h2 {
+        font-size: 39px;
+    }
+    /*start forth*/
+    .Adam{
+        padding: 50px 0;
+    }
+    .fi .pho{
+        float: left;
+        position: relative;
+        top: 114px;
+        left: 73px;
+        padding: 305px 0;
+
+    }
+    .conttnt{
+        padding: 100 0;
+        margin-top: 120px;
+    }
+    /*start seven section*/
+  
+    .bo section{
+        padding-top: 100px;
+    }
+  /*start footer*/
+  .fo .le{
+    float: left;
+  }
+  footer p,
+  footer p:nth-of-type(2){
+    font-size: 30px;
+    float: left;
+  }
+  .fo .ri{
+    float: left;
+  }
+  .fo button{
+    width: unset;
+    padding: 5%;
+    float: right;
+  }
+}
