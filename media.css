@@ -163,7 +163,12 @@
     width: 100%;
     display: inherit;
 }
-
+/*start loading pade*/
+.loading .sk-folding-cube{
+    margin-top: 50%;
+    margin-bottom: -50%;
+  
+}
 }
 
 @media(min-width:570px) and (max-width:800px) {
